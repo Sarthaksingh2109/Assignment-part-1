@@ -1,0 +1,51 @@
+Section 2: Technical MCQs (30 marks)
+
+Choose the correct answer.
+1. What is the output of the following JavaScript code? (6 marks)
+```js
+console.log(1 + &#39;1&#39; - 1);
+```
+a) 10
+b) 11
+c) 1
+d) NaN
+
+Answer: a) 10
+
+2. Which keyword is used to declare a constant in JavaScript? (6 marks)
+a) var
+b) let
+c) const
+d) function
+
+Answer: c) const
+
+3. What is the purpose of the map() function in JavaScript? (6 marks)
+a) To filter elements in an array
+b) To transform each element in an array
+c) To remove duplicate elements
+d) To sort an array
+
+Answer: b) To transform each element in an array
+
+4. What does the async keyword do in JavaScript? (6 marks)
+a) Makes a function run synchronously
+b) Allows a function to return a Promise
+c) Blocks execution until the function completes
+d) Creates a new thread
+
+Answer: b) Allows a function to return a Promise
+
+5. What will the following JavaScript code output? (6 marks)
+
+```js
+let a = [];
+let b = [];
+console.log(a == b);
+```
+a) true
+b) false
+c) undefined
+d) TypeError
+
+Answer: b) false

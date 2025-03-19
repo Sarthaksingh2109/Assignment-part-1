@@ -1,0 +1,34 @@
+<!-- 3. DOM Manipulation: (20 marks)
+ Write a JavaScript function that dynamically adds a new <li> element to an existing <ul>
+ list when a button is clicked. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynamic List</title>
+  </head>
+  <body>
+    <h1>My List</h1>
+    <ul id="myList">
+      <li>Item 1</li>
+      <li>Item 2</li>
+    </ul>
+    <input type="text" id="newItem" placeholder="Add a New Item" />
+    <button id="addbutton">Add Item</button>
+
+    <script>
+      function addItem() {
+        const newItemText = document.getElementById("newItem").value;
+        const newListItem = document.createElement("li");
+        newListItem.textContent = newItemText;
+
+        document.getElementById("myList").appendChild(newListItem);
+        document.getElementById("newItem").value = "";
+      }
+
+      document.getElementById("addbutton").addEventListener("click", addItem);
+    </script>
+  </body>
+</html>
